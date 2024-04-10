@@ -24,4 +24,6 @@ function calculateTriangleArea(){
     // display triangle aria
     const triangleAreaSpan = document.getElementById('triangle-area');
     triangleAreaSpan.innerText = triangleArea;
+
+
 }
