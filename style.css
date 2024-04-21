@@ -1,0 +1,11 @@
+
+
+.wrap{
+    display: flex;
+    justify-content: space-around;
+}
+
+.area-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
