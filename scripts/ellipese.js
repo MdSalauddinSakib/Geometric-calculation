@@ -11,8 +11,9 @@ function ellipseAreaCalculate(){
 
     // calculate
     const ellipseArea = majorAxis * minorAxis * Math.PI;
+    const ellipseAreaShort = ellipseArea.toFixed(2);
 
     // display ellipse area
     const ellipseAreaSpan = document.getElementById('Ellipse-equation');
-    ellipseAreaSpan.innerText = ellipseArea;
+    ellipseAreaSpan.innerText = ellipseAreaShort;
 }
