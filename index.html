@@ -137,23 +137,23 @@
                 <!-- Ellipse Card -->
                 <div class="card w-auto bg-base-100 shadow-xl">
                     <figure><img src="images/ellipse.png"
-                            alt="Rhombus" /></figure>
+                            alt="Ellipse" /></figure>
                     <div class="card-body text-center">
                         <h2 class="text-3xl font-bold">Ellipse!</h2>
                         <p>Area (A) = &#8508; X a X b</p>
                         <div>
-                            <!-- Rhombus base -->
-                            <input id="Rhombus-base" class="w-24 text-2xl p-2 rounded-lg bg-gray-100" type="text" placeholder="base">
+                            <!-- Ellipse major axis -->
+                            <input id="major-axis" class="w-24 text-2xl p-2 rounded-lg bg-gray-100" type="text" placeholder="major axis">
                             <span class="mr-2 ml-2">cm</span>
-                            <!-- Rhombus height -->
-                            <input id="Rhombus-height" class="w-24 text-2xl p-2 rounded-lg bg-gray-100" type="text" placeholder="height">
+                            <!-- Ellipse minor axis -->
+                            <input id="minor-axis" class="w-24 text-2xl p-2 rounded-lg bg-gray-100" type="text" placeholder="minor axis">
                             <span class="mr-2 ml-2">cm</span>
                         </div>
                         <div>
-                            <p class="text-2xl">Area: <span id="Rhombus-area">0</span><span> cm<sup>2</sup></span></p>
+                            <p class="text-2xl">Area: <span id="Ellipse-equation">0</span><span> cm<sup>2</sup></span></p>
                         </div>
                         <div class="card-actions justify-end">
-                            <button onclick="rhombusAreaCalculate()" class="btn btn-primary w-full font-bold text-lg">Calculate</button>
+                            <button onclick="ellipseAreaCalculate()" class="btn btn-primary w-full font-bold text-lg">Calculate</button>
                         </div>
                     </div>
                 </div>
@@ -172,6 +172,7 @@
     <script src="scripts/parallelogram-area.js"></script>
     <script src="scripts/Rhombus-area.js"></script>
     <script src="scripts/pentagon.js"></script>
+    <script src="scripts/ellipese.js"></script>
 </body>
 
 </html>

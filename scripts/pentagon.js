@@ -38,3 +38,5 @@ function setInnerTextById(elementId, text){
     const element = document.getElementById(elementId);
     element.innerText = text;
 }
+
+
