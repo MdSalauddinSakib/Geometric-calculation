@@ -117,13 +117,13 @@
                             alt="Rhombus" /></figure>
                     <div class="card-body text-center">
                         <h2 class="text-3xl font-bold">Pentagon!</h2>
-                        <p>Area (A) = 0.5 X p X b</p>
+                        <p>Area (A) = 0.5 X p X a</p>
                         <div>
                             <!-- Pentagon base -->
-                            <input id="Pentagon-base" class="w-24 text-2xl p-2 rounded-lg bg-gray-100" type="text" placeholder="base">
+                            <input id="Pentagon-perimeter" class="w-24 text-2xl p-2 rounded-lg bg-gray-100" type="text" placeholder="perimeter">
                             <span class="mr-2 ml-2">cm</span>
                             <!-- Pentagon height -->
-                            <input id="Pentagon-height" class="w-24 text-2xl p-2 rounded-lg bg-gray-100" type="text" placeholder="height">
+                            <input id="Pentagon-apothem" class="w-24 text-2xl p-2 rounded-lg bg-gray-100" type="text" placeholder="apothem">
                             <span class="mr-2 ml-2">cm</span>
                         </div>
                         <div>
@@ -153,7 +153,7 @@
                             <p class="text-2xl">Area: <span id="Ellipse-equation">0</span><span> cm<sup>2</sup></span></p>
                         </div>
                         <div class="card-actions justify-end">
-                            <button onclick="ellipseAreaCalculate()" class="btn btn-primary w-full font-bold text-lg">Calculate</button>
+                            <button onclick="calculateEllipseArea()" class="btn btn-primary w-full font-bold text-lg">Calculate</button>
                         </div>
                     </div>
                 </div>

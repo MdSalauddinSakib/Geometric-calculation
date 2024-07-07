@@ -14,13 +14,13 @@
 // }
 
 function pentagonAreaCalculator(){
-    const base = getInputValueById("Pentagon-base");
-    console.log('Base value is:', base);
+    const perimeter = getInputValueById("Pentagon-perimeter");
+    console.log('Base value is:', perimeter);
 
-    const height = getInputValueById('Pentagon-height');
-    console.log('Height value is:', height);
+    const apothem = getInputValueById('Pentagon-apothem');
+    console.log('Height value is:', apothem);
 
-    const area = base * height;
+    const area = 0.5 * perimeter * apothem;
     console.log('Area of the pentagon is:', area);
 
     setInnerTextById('Pentagon-area', area);
